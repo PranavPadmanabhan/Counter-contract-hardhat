@@ -1,13 +1,15 @@
-# Sample Hardhat Project
+#  Hardhat Counter Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a simple Hardhat Counter 
 
 Try running some of the following tasks:
+## Deploy
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
 npx hardhat run scripts/deploy.js
+```
+## Test
+
+```shell
+npx hardhat test
 ```
